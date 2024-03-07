@@ -89,7 +89,7 @@ function identifyBank(iban) {
 function createLogo() {
   const bankField = document.createElement("img");
   const outerDiv = document.getElementById("bank");
-  bankField.src = "seb.jpg";
+  bankField.src = "src/seb.jpg";
   bankField.className = "mt-4 h-12";
   outerDiv.appendChild(bankField);
 }
