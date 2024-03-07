@@ -1,6 +1,9 @@
 function checkIban() {
   const ibanField = document.getElementById("iban");
+  const bankField = document.getElementById("bank")
   const rawIban = ibanField.value;
+  bankField.innerHTML = "";
+
   //Im going to clean the iban from whitespace.
   const iban = rawIban.replaceAll(" ", "");
   //Test 1 - length of iban.
