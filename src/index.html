@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link href="https://db.onlinewebfonts.com/c/430a1a5763e20669c43bf9a19aa3009e?family=SEB+SansSerif+Regular" rel="stylesheet">
+</head>
+<body>
+  <header class = "mt-8">
+    <div class = "bg-green-100 h-32 flex justify-between">
+        <img src ="SebLogo.svg" class = "object-contain" >
+        <div class = " text-6xl font-bold m-8 text-[#60CD18] transition duration-300 hover:scale-105 ">
+      SEB IBAN checker
+        </div>
+        <div style="width: 48px;">
+        </div>
+    </div>
+  </header>
+  <h1 class="text-3xl font-bold underline bg-green-500 hidden">
+    Hello world!!!
+  </h1>
+  <div class="flex justify-center items-center min-h-screen">
+    <div class = "flex flex-col items-center p-10 bg-white shadow-lg rounded-lg mt-2">
+        <div class = "font-bold text-xl"> 
+            Enter IBAN for validation
+        </div>
+        <input id= "iban" class="mt-4 p-2 border-2 border-gray-200 rounded" placeholder="Enter IBAN">
+        </input>
+        <button id = "submit" class="mt-4 px-4 py-2 bg-[#29A7EC] text-white font-extrabold rounded hover:bg-[#41B0EE]">
+            SUBMIT
+        </button>
+        <div id = "result" class="mt-4"> 
+        </div>
+       <!-- <img id = "banklogo" src="seb.jpg" class = "mt-4 h-12" style = "display: none"> -->
+        <div id = "bank" class= "mt-4"> 
+        </div>
+
+    </div>
+  </div>
+  <script type="module" src="../main.js"></script>
+</body>
+</html>
